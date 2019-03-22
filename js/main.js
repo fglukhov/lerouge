@@ -71,7 +71,16 @@ $(document).ready(function () {
   $(".events-slider").slick({
     slidesToShow: 2,
     slidesToScroll: 2,
-    infinite: false
+    infinite: false,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   });
 
   // Events slider END
@@ -88,6 +97,13 @@ $(document).ready(function () {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
         }
       }
     ]

@@ -206,6 +206,9 @@ blockquote {
   transition: all .15s ease;
   cursor: pointer; }
 
+.slick-arrow:hover {
+  background: #d4a969; }
+
 .slick-arrow.slick-disabled {
   opacity: .3 !important; }
 
@@ -339,7 +342,13 @@ blockquote {
 
 .btn-1:hover {
   background: #d7b685;
-  color: #000; }
+  color: #fff; }
+
+.btn-1:hover:before {
+  border-color: #ebd2ad; }
+
+.btn-1:active {
+  background: #d4a969; }
 
 .btn-2,
 .btn-2:focus {
@@ -367,7 +376,13 @@ blockquote {
 
 .btn-2:hover {
   background: #d7b685;
-  color: #000; }
+  color: #fff; }
+
+.btn-2:hover:before {
+  border-color: #ebd2ad; }
+
+.btn-2:active {
+  background: #d4a969; }
 
 .btn-back {
   padding: 0;
@@ -449,6 +464,13 @@ textarea {
   transition: all .15s ease;
   resize: none;
   text-align: center; }
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus,
+textarea:focus {
+  border-color: #d4a969;
+  color: #d4a969; }
 
 textarea {
   display: block;
@@ -1685,7 +1707,11 @@ ul.navbar-nav a.active {
   background: #000;
   border-radius: 50%;
   position: relative;
-  margin: 0 8px 16px 8px; }
+  margin: 0 8px 16px 8px;
+  transition: all .15s ease; }
+
+.soclink:hover {
+  background: #d4a969; }
 
 .soclink:after {
   content: "";
@@ -1698,6 +1724,9 @@ ul.navbar-nav a.active {
   left: 50%;
   top: 50%;
   margin: -12px 0 0 -12px; }
+
+.soclink:hover:after {
+  background-position: 0 -24px; }
 
 .soclink-fb:after {
   background-image: url(../images/soclink-fb.png); }
@@ -2157,12 +2186,15 @@ h2.h2-menu:first-child,
   width: 83px;
   height: 93px;
   background: url(../images/play-button.png) 0 0 no-repeat;
-  background-size: 83px 93px;
+  background-size: 83px 186px;
   position: absolute;
   left: 50%;
   top: 50%;
   margin: -46px 0 0 -40px;
   z-index: 10; }
+
+.fancybox-video.gallery-item:hover:before {
+  background-position: 0 -93px; }
 
 .about-content-descr {
   font-size: 18px;
@@ -2187,12 +2219,15 @@ h2.h2-menu:first-child,
   width: 83px;
   height: 93px;
   background: url(../images/play-button.png) 0 0 no-repeat;
-  background-size: 83px 93px;
+  background-size: 83px 186px;
   position: absolute;
   left: 50%;
   top: 50%;
   margin: -46px 0 0 -40px;
   z-index: 10; }
+
+.about-content-video:hover:after {
+  background-position: 0 -93px; }
 
 .about-content-video img {
   width: 100%; }
@@ -2570,7 +2605,6 @@ h2.h2-menu:first-child,
   line-height: 30px;
   letter-spacing: .8em;
   text-transform: uppercase;
-  display: inline-block;
   margin-right: -.8em;
   margin: 0 0 24px 0; }
 
