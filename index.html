@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <style>
+    body {padding: 15px;}
+    ol {
+      list-style-type: none;
+      counter-reset: item;
+      margin: 0;
+      padding: 0;
+      }
+      
+      ol > li {
+        display: table;
+        counter-increment: item;
+        margin-bottom: 0.6em;
+      }
+      
+      ol > li:before {
+        content: counters(item, ".") ". ";
+        display: table-cell;
+        padding-right: 0.6em;
+      }
+      
+      li ol {
+        margin-top:10px;
+      }
+      li ol > li {
+      li ol > li {
+      li ol > li {
+        margin: 0;
+      }
+      
+      li ol > li:before {
+        content: counters(item, ".") " ";
+      }
+  </style>
+  <body>
+    <ol>
+      <li><a href="home.html">Главная (lg, md)</a></li>
+      <li><a href="about.html">О клубе</a></li>
+      <li><a href="events.html">Афиша (MOB)</a>
+        <ol>
+          <li><a href="events-item.html">Страница события (MOB)</a></li>
+        </ol>
+      </li>
+      <li><a href="actions.html">Акции (MOB)</a></li>
+      <li><a href="vacancies.html">Вакансии (MOB)</a>
+        <ol>
+          <li><a href="vacancies-item.html">Страница вакансии (MOB)</a></li>
+        </ol>
+      </li>
+      <li><a href="crazy-menu.html">Crazy меню (MOB)</a></li>
+      <li><a href="menu.html">Меню (MOB)</a></li>
+      <li><a href="gallery.html">Галерея (MOB)</a>
+        <ol>
+          <li><a href="gallery-item.html">Раздел галереи (MOB)</a></li>
+        </ol>
+      </li>
+      <li><a href="show.html">Шоу-программы (MOB)</a></li>
+      <li><a href="stag.html">Мальчишник (MOB)</a></li>
+      <li><a href="contacts.html">Контакты (MOB)</a></li>
+    </ol>
+  </body>
+</html>
