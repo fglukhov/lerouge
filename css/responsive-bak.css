@@ -33,8 +33,6 @@ body {
   .header-logo {
     padding: 14px 0 0 0;
     margin: 0 0 20px 0; }
-  .section-main-top {
-    padding: 186px 0 25px 0; }
   .article-section-descr {
     padding: 0 0 0 40px; }
   .article-section:nth-child(even) .article-section-descr {
@@ -77,9 +75,7 @@ body {
     line-height: 50px; }
   .section-header .sub-ttl {
     font-size: 20px;
-    line-height: 24px; }
-  .menu-nav-wrapper-fixed {
-    width: 289px; } }
+    line-height: 24px; } }
 
 /* Medium desktop END */
 @media (max-width: 1199px) and (min-width: 768px) {
@@ -257,9 +253,7 @@ body {
   .section-book .section-header h2,
   .section-book .section-header .h2 {
     font-size: 50px;
-    line-height: 50px; }
-  .menu-nav-wrapper-fixed {
-    width: 209px; } }
+    line-height: 50px; } }
 
 /* Small desktop END */
 @media (max-width: 991px) and (min-width: 768px) {
@@ -354,8 +348,6 @@ body {
     right: auto;
     width: 800px;
     margin-left: -400px; }
-  .header-home {
-    height: auto; }
   .header-pic {
     width: 800px;
     left: 50%;
@@ -366,7 +358,6 @@ body {
   .header-top {
     position: fixed;
     left: 0;
-    right: 0;
     top: 0;
     z-index: 500;
     padding: 0 0 10px 0;
@@ -398,7 +389,7 @@ body {
     line-height: 20px;
     padding: 10px 20px 10px 20px; }
   .header-logo {
-    padding: 5px 0 0 0;
+    padding: 14px 0 0 0;
     margin: 0 0 14px 0;
     text-align: left; }
   .header-logo img {
@@ -408,8 +399,6 @@ body {
   .main {
     padding-top: 180px;
     background-size: 160% auto; }
-  .header-home + .main {
-    padding-top: 150px; }
   .navbar-trigger {
     display: block;
     position: fixed;
@@ -542,11 +531,6 @@ body {
   .section-vacancy-form .section-header .h2 {
     font-size: 28px;
     line-height: 32px; }
-  .section-vacancy-form .section-header-ico {
-    width: 82px;
-    height: 83px;
-    background-size: 100% auto;
-    margin: 0 auto 0 auto; }
   .vacancy-form-info {
     padding-left: 0;
     padding-right: 0;
@@ -612,8 +596,8 @@ body {
     background-color: rgba(0, 0, 0, 0.2);
     background-position: 0 bottom;
     background-size: 120% 120%; }
-  .vac-tmb:after,
-  .gallery-tmb:after {
+  .vac-tmb-pic:after,
+  .gallery-tmb-pic:after {
     left: 5px;
     right: 5px;
     top: 5px;
@@ -667,14 +651,12 @@ body {
     position: fixed;
     left: 0;
     right: 0;
-    top: 0 !important;
+    top: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.95);
     z-index: 600;
     overflow: auto;
-    padding: 40px 80px 40px 40px;
-    margin: 0 !important;
-    width: auto !important; }
+    padding: 40px 80px 40px 40px; }
   .menu-nav-wrapper .close {
     position: absolute;
     float: none;
@@ -818,7 +800,6 @@ body {
     margin: 0 0 30px 0;
     z-index: 10; }
   .section-main-top {
-    margin-top: 0;
     background-size: auto 100%;
     background-position: 75% bottom;
     min-height: 0; }
@@ -876,7 +857,7 @@ body {
     width: 82px;
     height: 83px;
     background-size: 100% auto;
-    margin-bottom: 10px; }
+    margin-bottom: 20px; }
   .section-club .section-header:before {
     transform: scale(0.5); }
   .h3-alt {
@@ -916,15 +897,10 @@ body {
     background-position: center 0;
     top: 30px; }
   .section-menu .section-header {
-    padding: 10px 0 0 0; }
+    padding: 60px 0 0 0; }
   .section-menu .section-header:before {
     transform: scale(0.5);
     top: -180px; }
-  .section-menu .section-header-ico {
-    width: 82px;
-    height: 83px;
-    background-size: 100% auto;
-    margin-bottom: 10px; }
   .menu-list {
     margin: 0 -15px -30px -15px; }
   .menu-col {
@@ -973,25 +949,13 @@ body {
   .section-book .section-header .h2 {
     font-size: 36px;
     line-height: 40px; }
-  .section-book .section-header-ico {
-    width: 82px;
-    height: 83px;
-    background-size: 100% auto;
-    margin: -30px auto -10px auto; }
   .book-form {
-    margin: 0 auto; }
+    margin: 0; }
   .section-alt .section-header {
-    padding: 10px 0 36px 0;
+    padding: 0 0 36px 0;
     margin: 0 0 40px 0; }
   .section-alt .section-header:before {
-    transform: scale(0.5);
-    top: -185px; }
-  .section-alt .section-header-ico {
-    width: 82px;
-    height: 83px;
-    background-size: 100% auto;
-    margin: -45px auto 0 auto; }
-  .show-more-wrapper {
-    margin-top: 20px; } }
+    transform: scale(0.3);
+    top: -210px; } }
 
 /* Mobile END */
