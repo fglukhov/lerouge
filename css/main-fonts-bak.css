@@ -48,7 +48,7 @@ body {
 
 h1,
 .h1 {
-  font-family: 'theano_didotbook';
+  font-family: 'old_standard';
   font-size: 70px;
   line-height: 70px;
   font-weight: normal;
@@ -57,7 +57,7 @@ h1,
 
 h2,
 .h2 {
-  font-family: 'theano_didotbook';
+  font-family: 'old_standard';
   font-size: 50px;
   line-height: 50px;
   font-weight: normal;
@@ -69,7 +69,7 @@ h2:first-child,
 
 h3,
 .h3 {
-  font-family: 'theano_didotbook';
+  font-family: 'old_standard';
   font-size: 30px;
   line-height: 36px;
   font-weight: normal;
@@ -941,7 +941,7 @@ input.input-date[type=text].error {
 
 .modal-header h2,
 .modal-header .h2 {
-  font-family: 'theano_didotbook';
+  font-family: 'old_standard';
   font-size: 60px;
   line-height: 60px;
   font-weight: normal;
@@ -949,13 +949,12 @@ input.input-date[type=text].error {
   margin: 0 0 2px 0; }
 
 .modal-header .sub-ttl {
-  font-family: 'theano_didotbook';
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: .2em;
+  letter-spacing: .8em;
   text-transform: uppercase;
   display: inline-block;
-  margin-right: -.2em; }
+  margin-right: -.8em; }
 
 .modal-header .sub-ttl span {
   background: linear-gradient(to right, #ecd3ad, #cca468);
@@ -1466,13 +1465,12 @@ ul.navbar-nav a.active {
   margin: 0 0 14px 0; }
 
 .section-header .sub-ttl {
-  font-family: 'theano_didotbook';
   font-size: 24px;
   line-height: 30px;
-  letter-spacing: .2em;
+  letter-spacing: .8em;
   text-transform: uppercase;
   display: inline-block;
-  margin-right: -.2em; }
+  margin-right: -.8em; }
 
 .section-header .sub-ttl span {
   background: linear-gradient(to right, #ecd3ad, #cca468);
@@ -1667,7 +1665,7 @@ ul.navbar-nav a.active {
 
 .contacts-descr h2,
 .contacts-descr .h2 {
-  font-family: 'theano_didotbook';
+  font-family: 'circe';
   font-weight: normal;
   text-transform: uppercase;
   position: relative;
@@ -1793,7 +1791,7 @@ ul.footer-menu a.active {
   padding: 41px 0 0 0; }
 
 .footer-copy {
-  font-family: 'theano_didotbook';
+  font-family: 'old_standard';
   font-size: 20px;
   line-height: 24px;
   text-align: center;
@@ -2516,13 +2514,12 @@ h2.h2-menu,
   background-size: 124px 123px; }
 
 .main-top-sup-ttl {
-  font-family: 'theano_didotbook';
   font-size: 24px;
   line-height: 30px;
-  letter-spacing: .2em;
+  letter-spacing: .8em;
   text-transform: uppercase;
   display: inline-block;
-  margin-right: -.2em; }
+  margin-right: -.8em; }
 
 .main-top-sup-ttl span {
   background: linear-gradient(to right, #ecd3ad, #cca468);
@@ -2675,12 +2672,11 @@ h2.h2-menu,
   margin-left: -72px; }
 
 .h3-alt {
-  font-family: 'theano_didotbook';
   font-size: 24px;
   line-height: 30px;
-  letter-spacing: .2em;
+  letter-spacing: .8em;
   text-transform: uppercase;
-  margin-right: -.2em;
+  margin-right: -.8em;
   margin: 0 0 24px 0; }
 
 .h3-alt span {

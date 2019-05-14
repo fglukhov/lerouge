@@ -838,6 +838,8 @@ body {
     position: relative;
     margin: 0;
     padding: 0; }
+  .main-top-content:before {
+    display: none; }
   .main-top-ico {
     width: 62px;
     height: 62px;
